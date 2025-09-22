@@ -6,7 +6,7 @@ import {
   Animated,
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import { mapData } from "../../mock/mapData";
+import { mapData } from "../mock/mapData";
 
 const BottomCard = ({ showList, setShowList, mapRef }) => {
   const handleFocusLocation = (item) => {

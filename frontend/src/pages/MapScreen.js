@@ -1,9 +1,9 @@
 import { Text, View, StyleSheet } from "react-native";
-import AppHeader from "../../src/components/common/AppHeader";
+import AppHeader from "../components/AppHeader";
 import { useRef, useState } from "react";
 import { mapData } from "../mock/mapData";
 import MapView, { Marker } from "react-native-maps";
-import BottomCard from "../components/common/BottomCard";
+import BottomCard from "../components/BottomCard";
 
 const getColorByMagnitude = (mag) => {
   if (mag < 4) return "#FFFF00";
@@ -54,8 +54,12 @@ const MapScreen = () => {
 };
 
 const styles = StyleSheet.create({
-  container: { flex: 1 },
-  map: { flex: 1 },
+  container: {
+    flex: 1,
+  },
+  map: {
+    flex: 1,
+  },
   circle: {
     width: 20,
     height: 20,
