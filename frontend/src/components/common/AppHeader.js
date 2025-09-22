@@ -4,7 +4,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 const AppHeader = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>EARTHQUAK RISK</Text>
+      <Text style={styles.title}>EARTHQUAKE RISK</Text>
     </View>
   );
 };
