@@ -1,11 +1,11 @@
 import { Text, View, StyleSheet } from "react-native";
-import AppHeader from "../components/common/AppHeader";
+import AppHeader from "../../src/components/common/AppHeader";
 
-const InfoScreen = () => {
+const QrCodeScreen = () => {
   return (
     <View style={styles.container}>
       <AppHeader />
-      <Text style={styles.text}>Info</Text>
+      <Text style={styles.text}>QR</Text>
     </View>
   );
 };
@@ -23,4 +23,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default InfoScreen;
+export default QrCodeScreen;

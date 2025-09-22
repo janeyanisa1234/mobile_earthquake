@@ -1,11 +1,11 @@
 import { Text, View, StyleSheet } from "react-native";
-import AppHeader from "../components/common/AppHeader";
+import AppHeader from "../../src/components/common/AppHeader";
 
-const MapScreen = () => {
+const DashboardScreen = () => {
   return (
     <View style={styles.container}>
       <AppHeader />
-      <Text style={styles.text}>Map</Text>
+      <Text style={styles.text}>Dashboard</Text>
     </View>
   );
 };
@@ -23,4 +23,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default MapScreen;
+export default DashboardScreen;
